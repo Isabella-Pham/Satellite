@@ -423,23 +423,7 @@ boolean OpenLog_HardReset(int resetPin)
  Nathan Seidle
  SparkFun Electronics
  November 5, 2012
- 
- License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
- 
- This example code shows how to read the X/Y/Z accelerations and basic functions of the MMA5842. It leaves out
- all the neat features this IC is capable of (tap, orientation, and inerrupts) and just displays X/Y/Z. See 
- the advanced example code to see more features.
- 
- Hardware setup:
- MMA8452 Breakout ------------ Arduino
- 3.3V --------------------- 3.3V
- SDA -------^^(330)^^------- A4
- SCL -------^^(330)^^------- A5
- GND ---------------------- GND
- 
- The MMA8452 is 3.3V so we recommend using 330 or 1k resistors between a 5V Arduino and the MMA8452 breakout.
- 
- The MMA8452 has built in pull-up resistors for I2C so you do not need additional pull-ups.
+
  ---------------------------------------------------------------------------------------------*/
 
 // The SparkFun breakout board defaults to 1, set to 0 if SA0 jumper on the bottom of the board is set
